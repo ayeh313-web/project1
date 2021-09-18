@@ -1,0 +1,210 @@
+@font-face {
+     font-family: 'vazir';
+     src: url('../fonts/vazir.eot') format('eot'),
+          url('../fonts/vazir.ttf')  format('truetype'),
+          url('../fonts/vazir.woff2') format('woff2'), 
+          url('../fonts/vazir.woff') format('woff'),  
+}
+body{
+     font-family:'vazir';
+     direction:rtl;
+     margin:0;
+     padding:0;
+}
+ul,li{
+     margin:0;
+     padding:0;
+}
+.container{
+     width:1100px;
+     margin:auto;
+}
+.overlay{
+     position:absolute;
+     top:0;
+     right:0;
+     left:0;
+     bottom:0;
+     background-color: rgba(0,0,0,.6);
+}
+
+/* header */
+
+
+header{
+     background-image: url('../images/bakcground-header.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 100vh;
+     width: 100%;
+     position: relative;
+}
+header nav{
+     background-color: rgba(0,0,0,.6);
+     width: 100%;
+     height:80px;
+}
+header nav ul{
+     width:50%;
+     float:right;
+     height:100%;
+}
+header nav ul li{
+     display: inline-block;
+     margin: 0 10px 0 10px;
+     line-height:4;
+}
+header nav ul li a{
+     text-decoration: none;
+     font-size: 20px;
+     color:#fff;
+}
+header nav .logo{
+     width:50%;
+     height: 100%;
+     float:right;
+     text-align: left;
+}
+header nav .logo img{
+     width:80px;
+     margin-top:5px;
+}
+header .header-desc{
+     color:#fff;
+     top:40%;
+     left:0;
+     right: 0;
+     text-align:center;
+     position:absolute;
+}
+header .header-desc h1{
+     font-size:50px;
+}
+header .header-desc p{
+     font-size:25px;
+}
+
+/* over-story */
+#our-story{
+     width:100%;
+     height:450px;
+     padding:100px 0;
+}
+#our-story .story-desc{
+     width:50%;
+     float:right;
+     text-align:center;
+}
+#our-story .story-desc h1{
+     font-size: 30px;
+     margin-top:150px;
+}
+#our-story .story-desc p{
+     line-height: 30px;
+     font-size: 18px;
+     margin-top: 30px;
+     width: 550px;
+     margin: auto;
+}
+#our-story .story-img{
+     width:50%;
+     float:right;
+}
+#our-story .story-img img{
+     width: 100%;
+}
+/* sweet */
+#sweet{
+     width:100%;
+     height:255px;
+     position: relative;
+     padding:100px 0;
+     background-image: url(../images/backtwo.jpg);
+     background-size: cover;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+}
+#sweet .sweet-desc{
+     text-align: center;
+     color:#fff;
+     margin-top:150px;
+}
+#sweet .sweet-desc h1{
+     font-size: 45px;
+}
+#sweet .sweet-desc p{
+     font-size:20px;
+     width: 550px;
+     margin: auto;
+}
+/* menu */
+
+#menu{
+     width: 100%;
+     height:450px;
+     padding:100px 0;
+}
+#menu .menu-desc{
+     width: 50%;
+     float:right;
+     text-align: center;
+}
+#menu .menu-desc h1{
+     font-size:40px;
+     margin-top:90px;
+}
+#menu .menu-desc p{
+     width: 550px;
+     margin:auto;
+     line-height:30px;
+     font-size:18px;
+     margin-bottom:25px;
+}
+#menu .menu-desc a{
+     text-decoration: none;
+     color:#000;
+     font-size: 18px;
+     border-bottom:2px solid rgb(243, 51, 51);
+}
+#menu .menu-img{
+     width:50%;
+     float:right;
+}
+#menu .menu-img ul{
+     width:100%;
+     list-style: none;
+}
+#menu .menu-img ul li{
+     width:50%;
+     float:right;
+     text-align:left;
+     margin-bottom: 10px;
+}
+#menu .menu-img img{
+     width:95%;
+     height: 200px;
+}
+/* hot */
+.hot{
+     width:100%;
+     height:400px;
+     position: relative;
+     background-image: url(../images/hot.jpeg);
+     background-attachment: fixed;
+     background-repeat:no-repeat;
+     background-size:cover;
+}
+.hot .hot-titel{
+     color:#fff;
+     width: 100%;
+     text-align:center;
+     padding:100px 0;
+     /* margin-top:30px; */
+}
+.hot .hot-titel h1{
+     font-size: 60px;
+     margin-bottom:20px;
+}
+.hot .hot-titel p{
+     font-size:30px;
+}
